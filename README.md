@@ -10,12 +10,23 @@ The output is an html file, which can easily be converted to pdf (see
 
 Markup tags and rules can be found in the top of `labnote.py`.
 
-![alt text](resources/ex1.png "Example 1, Part 1.")
+#### Example:
 
+The following text section includes a hyperlink, section dividers, 
+some lines from a python file, and some MathJax typesetting 
+(both inline and centered equations).
+
+Note that markup tags do not have to be capitalized - the first few are capitalized
+just for clarity.
 
 ```
+%% BOLD k-Means:
+
+Here's a cool link to a nice k-means clustering algo written in c:
+%% LINK kmeans.c https://github.com/shubham-bhatnagar/Movie-Recommendation-System/blob/master/kmeans.c
+
 ============================================================ 2017-12-21 1:59 AM
-%% bold Some file-inclusion with syntax highlighting tests:
+%% BOLD Some file-inclusion with syntax highlighting tests:
 
 Let's include only a few lines from this file:
 
@@ -28,10 +39,16 @@ Now, how about a few more from the same file:
 And an output file: (text format - which can also take a range, so you don't need more than one).
 
 %% incl resources/outfile.txt
+
+============================================================ 2017-12-21 2:21 AM
+%% bold MathJax Test:
+
+When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+
 ```
 
-
-![alt text](resources/ex2.png "Example 1, Part 2.")
+![alt text](resources/pyex.png "Example.")
 
 #### Usage:
 
