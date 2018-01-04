@@ -10,6 +10,29 @@ The output is an html file, which can easily be converted to pdf (see
 
 Markup tags and rules can be found in the top of `labnote.py`.
 
+![alt text](resources/ex1.png "Example 1, Part 1.")
+
+
+```
+============================================================ 2017-12-21 1:59 AM
+%% bold Some file-inclusion with syntax highlighting tests:
+
+Let's include only a few lines from this file:
+
+%% INCL resources/testfile.py:7-19
+
+Now, how about a few more from the same file:
+
+%% INCL resources/testfile.py:21-24
+
+And an output file: (text format - which can also take a range, so you don't need more than one).
+
+%% incl resources/outfile.txt
+```
+
+
+![alt text](resources/ex2.png "Example 1, Part 2.")
+
 #### Usage:
 
 It's easiest to just put a makefile in your working folder, and map a key to run
