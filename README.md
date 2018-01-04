@@ -1,7 +1,7 @@
 ### Labnotebook
 
 A simple working notebook that makes it easy to include text, images,
-syntax-highlighted code, math, and 
+syntax-highlighted code, and math.
 
 The input is a very basic markup file with simple rules.
 
@@ -15,10 +15,12 @@ It's easiest to just put a makefile in your working folder, and map a key to run
 I use `<Leader> m` in vim, and run a python file server locally, using `python
 -m http.server`.
 
-That way you can see your output file at localhost:8000/<yourfile>.html.
+That way you can see your output file at `localhost:8000/<yourfile>.html`.
 
 I just use a split-screen with a browser and Vim, and can therefore achieve
 near-instant gratification.
+
+![alt text](resources/split.png "Split-screen working view.")
 
 #### Why not an Ipython or Jupyter?
 
