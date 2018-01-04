@@ -47,7 +47,9 @@ When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 ```
-
+  
+Produces the following:  
+  
 ![alt text](resources/pyex.png "Example.")
 
 #### Usage:
@@ -73,7 +75,7 @@ include all the `ln[1]:` line numbers for every input and output.
 
 #### Dependencies:
 
-[pygments](http://pygments.org/)
+[pygments](http://pygments.org/) for syntax highlighting.
 
 `pip install pygments`
 
