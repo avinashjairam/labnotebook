@@ -1,0 +1,78 @@
+/* Example labnotebook file:                                                 */
+/* Start up server by: $ python -m http.server and view output at:           */
+/* localhost:8000/example.html                                               */
+/*---------------------------------------------------------------------------*/
+<div style="text-align: center; width: 100%%">
+%% BOLD Working log for Some Awesome Project.
+</div>
+============================================================ 2017-12-21 1:56 AM
+%% BOLD Log entry about some project I was working on: 
+
+Here are some thoughts - keeping a new log now.
+Here are some other thoughts on the same subject.
+============================================================ 2017-12-21 1:57 AM
+%% BOLD Different Log Subject:
+
+Here is a different day's thoughts.
+And some other things that go with them.
+============================================================ 2017-12-21 1:58 AM
+%% BOLD A log entry that requires some visual explanation:
+
+An image that explains the situation (from Wikimedia - public domain):
+
+%% IMG resources/pic.png
+
+Some comments about the above picture.
+
+%% BOLD Note:
+Forgot to mention something important:
+
+
+Let's do a test on bullet points (hyphens at this point):
+- First
+- Second
+- Third
+
+%% bold k-Means:
+
+Here's a cool link to a nice k-means clustering algo written in c:
+%% LINK kmeans.c https://github.com/shubham-bhatnagar/Movie-Recommendation-System/blob/master/kmeans.c
+
+============================================================ 2017-12-21 1:59 AM
+%% bold Some file-inclusion with syntax highlighting tests:
+
+Let's include only a few lines from this file:
+
+%% INCL resources/testfile.py:7-19
+
+Now, how about a few more from the same file:
+
+%% INCL resources/testfile.py:21-24
+
+And an output file: (text format - which can also take a range, so you don't need more than one).
+
+%% incl resources/outfile.txt
+
+============================================================ 2017-12-21 2:21 AM
+%% BOLD MathJax Test:
+
+When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+============================================================ 2017-12-21 9:16 AM
+%% BOLD Local Server testing with Python & Chrome:
+
+Serve local files with:
+%% CODE python -m http.server
+
+============================================================ 2017-12-21 9:35 AM
+%% BOLD New Entry - Just to develop the idea further ...
+
+Hey! A new entry !! 
+
+(image is also wikimedia - public domain)
+
+%% IMG resources/somepic.png
+%% CODE tons_of_python
+
+/* The 'exec' below is not implemented yet. */
+%% EXEC /path/to/executable/file filename --with --some --args

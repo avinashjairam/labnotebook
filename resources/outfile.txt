@@ -1,0 +1,3 @@
+Here is some output:
+foo bar you bar
+dood.

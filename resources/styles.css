@@ -1,0 +1,254 @@
+div{
+    /*
+    border:solid 1px;
+    opacity:0.75;
+    */
+}
+.main{width:100%;
+    /*border:solid 1px;*/
+}
+/*.top{ height:10px;margin:2px;} */
+.inner_pad{
+    float:left;
+    height:100%;
+    width:1%;
+    text-align:left;
+    opacity:0.75;
+    /* margin: 0; */
+}
+.inner_div{
+    float:left;
+    height:49.125%;
+    width:29%;
+    text-align:left;
+    opacity:0.75;
+    /* margin: 0; */
+}
+.inner_dbl{
+    float:left;
+    height:49.125%;
+    width:66%;
+    text-align:center;
+    opacity:0.85;
+}
+.outer_div{margin:0;
+    overflow:hidden;
+    opacity:1;
+}
+.inner_plot{
+    float:left;
+    height:400px;
+    /* height:49.125%; */
+    width:50%;
+    /* width:600px; */
+    text-align:left;
+    opacity:1;
+}
+
+h4 {
+    color: #222;
+    /* color: rgba(100, 40, 200, 0.95); */
+    font-style: italic;
+}
+
+
+/* svg stuff */
+.data-series{
+opacity:	0.5;
+stroke-width:	1;
+fill:	none;
+}
+.axis{
+stroke:	#111;
+stroke-width:	0.5;
+}
+.y-axis-text{
+text-anchor:	end;
+}
+.background{
+fill:	none;
+}
+.axis-units{
+font-size:	10px;
+font-family:	Arial;
+}
+.gridlines{
+opacity:	0.5;
+stroke:	black;
+stroke-width:	0.5;
+fill:	none;
+}
+.x-axis-text{
+text-anchor:	middle;
+}
+.axis-label{
+font-size:	14px;
+font-family:	Arial;
+text-anchor:	middle;
+}
+
+/* TEMP - disable table for DataTable css */
+/* Table borders*/
+table {
+    border-collapse: collapse;
+    border:none;
+    text-align:left;
+    font-size:	14px;
+    font-family:	Arial;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    text-align:left;
+    padding-left:7px;
+    font-size:0.85em;
+    /*
+    height: 5px;
+    padding: 0px;
+    */
+}
+
+/* TEMP disabled - conflicts with menu - KEEP for later.
+*/
+#tableholder a:link {
+    color: black;
+    text-decoration: none;
+}
+#tableholder a:visited {
+    color: black;
+    text-decoration: none;
+}
+#tableholder a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+#tableholder a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+
+a:link {
+    color: black;
+    text-decoration: underline;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+
+tr:hover {background-color: #f5f5f5}
+/* tr:nth-child(even) {background-color: #f2f2f2} */
+
+/* Join point with dbase.css */
+/* Top Bar Menu Stuff: */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: #444;
+    font-size:16px;
+    /* font-weight: bold; */
+}
+
+li {
+    float: left;
+}
+
+/* Top-Bar Menu Text:*/
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Hover over menu items: */
+li a:hover, .dropdown:hover .dropbtn {
+    /* background-color: rgba(10, 20, 60, 0.99); */
+    background-color: #222;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+/* Make menu drop-down */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444444;
+    min-width: 112px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Text in dropdown: */
+.dropdown-content a {
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: #222;
+}
+
+.dropdown-content a:hover {
+    background-color: #444;
+ /* #555555 */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    /* background-color: rgba(100, 40, 200, 0.85); */
+}
+
+
+/* Body of entire page: */
+body {
+    background-color: white;
+    font-size:	12px;
+    font-family:	Arial;
+}
+
+/* Select-Box: */
+.select-style {
+    border: 1px solid #ccc;
+    width: 80px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
