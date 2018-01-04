@@ -71,6 +71,13 @@ Those are both excellent solutions - but some people want something a little
 simpler, that exports to different formats easily, makes nice reports if necessary, and does not
 include all the `ln[1]:` line numbers for every input and output.
 
+#### Dependencies:
+
+[pygments](http://pygments.org/)
+
+`pip install pygments`
+
+
 ###### License:
 
 This is a personal tool, in no way fit to be relied upon for any reason.  
